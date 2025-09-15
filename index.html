@@ -3,112 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Un Tren sin Rumbo - Poemario</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Un Tren Sin Rumbo</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+        
+        .titulo {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+        
+        .contenedor-imagen {
+            width: 80%;
+            max-width: 800px;
+            border: 2px solid #fff;
+            padding: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+            margin-bottom: 2rem;
+        }
+        
+        .imagen-central {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        .pie-de-imagen {
+            margin-top: 1rem;
+            font-style: italic;
+            color: #ccc;
+        }
+        
+        @media (max-width: 768px) {
+            .titulo {
+                font-size: 2rem;
+            }
+            
+            .contenedor-imagen {
+                width: 95%;
+            }
+        }
+    </style>
 </head>
 <body>
-    <div class="railroad-tracks"></div>
-    <div class="window-effect"></div>
+    <h1 class="titulo">Un Tren Sin Rumbo</h1>
     
-    <header>
-        <div class="title-container">
-            <h1>Un Tren sin Rumbo</h1>
-            <p class="subtitle">Poemario</p>
-        </div>
-        
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#poemas">Poemas</a></li>
-                <li><a href="#autor">El Autor</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <main>
-        <section id="inicio">
-            <h2>Bienvenido al viaje</h2>
-            <p>"Un Tren sin Rumbo" es una colección de poemas que exploran los paisajes interiores del alma, el amor perdido y la búsqueda de significado en un mundo que avanza sin detenerse.</p>
-            <p>Cada poema es una estación en este viaje literario, una parada para reflexionar antes de continuar el trayecto.</p>
-        </section>
-        
-        <section id="poemas">
-            <h2>Poemas Seleccionados</h2>
-            
-            <div class="poem">
-                <h3 class="poem-title">Estación del Adiós</h3>
-                <div class="poem-content">
-                    El silbato del tren 
-                    cortó nuestro tiempo 
-                    como tijeras en el hilo 
-                    de lo que pudimos ser.
-                    
-                    Te vi desaparecer 
-                    entre el vapor y la nostalgia 
-                    llevándote en los ojos 
-                    todos mis paisajes.
-                </div>
-            </div>
-            
-            <div class="poem">
-                <h3 class="poem-title">Vías Paralelas</h3>
-                <div class="poem-content">
-                    Caminamos juntos 
-                    pero separados 
-                    como vías que se miran 
-                    pero nunca se tocan.
-                    
-                    El destino quiso 
-                    que compartiésemos ruta 
-                    pero no andén 
-                    ni destino final.
-                </div>
-            </div>
-            
-            <div class="poem">
-                <h3 class="poem-title">Luz en el Túnel</h3>
-                <div class="poem-content">
-                    No era el final 
-                    sino la oscuridad necesaria 
-                    para apreciar la claridad 
-                    que llegaría después.
-                    
-                    A veces debemos recorrer 
-                    la negrura completa 
-                    para aprender a ver 
-                    con los ojos cerrados.
-                </div>
-            </div>
-            
-            <button id="load-more">Cargar más poemas</button>
-        </section>
-        
-        <section id="autor">
-            <h2>El Autor</h2>
-            <div class="author-content">
-                <div class="author-text">
-                    <p>El autor de "Un Tren sin Rumbo" prefiere mantenerse en el anonimato, comparándose con un viajero que observa desde la ventanilla sin ser visto.</p>
-                    <p>Su escritura nace de los paisajes recorridos y las estaciones vividas, transformando en versos las experiencias que marcan el viaje de la vida.</p>
-                </div>
-            </div>
-        </section>
-        
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <form id="contact-form">
-                <input type="text" placeholder="Nombre" required>
-                <input type="email" placeholder="Correo electrónico" required>
-                <textarea placeholder="Tu mensaje..." required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
-    </main>
-    
-    <footer>
-        <p>© 2023 - Un Tren sin Rumbo - Todos los derechos reservados</p>
-    </footer>
+    <div class="contenedor-imagen">
+        <img src="untren.jpeg" 
+             alt="Tren en la noche" class="imagen-central" borde="0">
+        <p class="pie-de-imagen">Un viaje hacia lo desconocido</p>
+    </div>
 
-    <script src="script.js"></script>
+    <h5 > Reserva tu ejemplar: <br><br>
+         iker25122004@gmail.com <br><br>
+               
+        
+        
+        </h5>
+
 </body>
 </html>
